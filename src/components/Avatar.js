@@ -1,9 +1,9 @@
 import React from 'react'
 
 function Avatar() {
-    let url = 'https://i.pravatar.cc/150?img=39'
+    let url = './dummy-avatar.jpg'
     
-    return <img src={url} alt="!Avatar"/>
+    return (<img src={url} alt="!Avatar"/>)
 }
 
 export default Avatar
